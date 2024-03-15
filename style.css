@@ -120,57 +120,10 @@ h1 {
 
 
 
-@media (min-width: 450px) {
-    .between {
-        font-size: 0.8rem;
-    }
-
-    header h1 {
-        font-size: 2rem;
-    }
-
-    header .btn {
-        padding: 0.5rem 1.5rem;
-        font-size: 1rem;
-    }
-
-    header .number {
-        width: 8rem;
-        padding: 1.4rem 0rem;
-        font-size: 4rem;
-    }
-
-    .guess {
-        width: 13rem;
-        height: 5rem;
-        padding: 0.5rem;
-        font-size: 2.2rem;
-    }
-
-    main .btn {
-        padding: 1.5rem 2rem;
-        font-size: 1rem;
-    }
-
-    .right {
-        width: 45rem;
-        font-size: 1.1rem;
-        text-align: center;
-    }
-
-    .left {
-        width: 45rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-}
 
 
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     .between {
         font-size: 0.8rem;
     }
